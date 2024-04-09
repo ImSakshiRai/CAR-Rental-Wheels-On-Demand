@@ -30,16 +30,16 @@ function Footer() {
                 </a>
               </li>
 
-              <li>
+              {/* <li>
                 <a
                   style={{ fontSize: "14px" }}
                   target="_blank"
                   rel="noreferrer"
-                  href="https://xpeedstudio.com/"
+                  href="https://imsakshirai.github.io/PORTFOLIO/"
                 >
-                  Design by XpeedStudio
+                  Design by Sakshi Rai
                 </a>
-              </li>
+              </li> */}
             </ul>
 
             <ul className="footer-content__2">
@@ -73,16 +73,30 @@ function Footer() {
               <li>
                 <p>Subscribe your Email address for latest news & updates.</p>
               </li>
+              <form
+                action="https://formspree.io/f/mjvnpwdn"
+                method="POST">
+              <label>
               <li>
-                <input type="email" placeholder="Enter Email Address"></input>
+                <input type="email" name= "email" placeholder="Enter Email Address"></input>
               </li>
+              </label>  
               <li>
                 <button className="submit-email">Submit</button>
               </li>
+              </form>
             </ul>
           </div>
         </div>
       </footer>
+      <a className="sakshi"
+        style={{ fontSize: "14px" }}
+        target="_blank"
+        rel="noreferrer"
+        href="https://imsakshirai.github.io/PORTFOLIO/"
+        >
+          Build & Design by Sakshi Rai
+        </a>
     </>
   );
 }

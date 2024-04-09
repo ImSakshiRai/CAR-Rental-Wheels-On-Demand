@@ -25,25 +25,27 @@ function Contact() {
               </a>
               <a href="/">
                 <IconLocation />
-                &nbsp; Belgrade, Serbia
+                &nbsp; Delhi, India
               </a>
             </div>
             <div className="contact-div__form">
-              <form>
+              <form 
+                action="https://formspree.io/f/mjvnpwdn"
+                method="POST">
                 <label>
                   Full Name <b>*</b>
                 </label>
-                <input type="text" placeholder='E.g: "Joe Shmoe"'></input>
+                <input type="text" placeholder='E.g: "Sakshi Rai"'></input>
 
                 <label>
                   Email <b>*</b>
                 </label>
-                <input type="email" placeholder="youremail@example.com"></input>
+                <input type="email" name="email"  placeholder="youremail@example.com"></input>
 
                 <label>
                   Tell us about it <b>*</b>
                 </label>
-                <textarea placeholder="Write Here.."></textarea>
+                <textarea name="message" placeholder="Write Here.."></textarea>
 
                 <button type="submit">
                   <IconMailOpened />

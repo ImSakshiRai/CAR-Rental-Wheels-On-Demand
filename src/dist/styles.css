@@ -2373,3 +2373,15 @@ footer {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+.sakshi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 7rem;
+}
+a:hover {
+  color: #ff4d30;
+}
